@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbarSupportedContent {
+    margin-right: 4rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+@media only screen and (width: 768px) {
+    #navbarSupportedContent {
+        font-size: 11px;
+        margin-right: 0 px;
+    }
+
+    .appointment button {
+        font-size: 1px;
+        margin-top: 5px;
+    }
+
+    #navbarSupportedContent ul li a {
+        margin-left: 0 rem;
+    }
+
+    #navbarSupportedContent ul li a button {
+        margin-left: 0 rem;
+    }
+}
+
+.navtop img {
+    margin-left: 3rem;
+}
+
+#navbarSupportedContent ul li .nav-link {
+    margin-left: 1rem;
+    display: block;
+}
+
+#navbarSupportedContent ul li .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #6dc065;
+    transition: width .3s;
+}
+
+#navbarSupportedContent ul li .nav-link:hover::after {
+    width: 100%;
+    height: 5px;
+    transition: width .3s;
+
+}
+
+#navbarSupportedContent ul li a button {
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+
+.appointment button {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.carousel-inner {
+    height: auto;
+    max-height: auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    margin-bottom: 5rem;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+
+.abouthead {
+    text-align: left;
+    font-family: Rockwell;
+    font-weight: regular;
+    font-size: 51px;
+}
+
+.about p {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.aboutdetails {
+    margin-left: auto;
+}
+
+
+.aboutimg img {
+    margin-top: 52px;
+    width: 100%;
+}
+
+.about_btn button {
+    margin-top: 26px;
+    width: 190px;
+    color: black;
+    background-color: aqua;
+    font-weight: regular;
+    font-family: Lato;
+}
+
+.container-about {
+    margin-bottom: 5rem;
+}
+
+.container-fluid-facility {
+    height: 495px;
+    width: 100%;
+    background-image: url(/image/facilities.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.facilitytop {
+    text-align: center;
+    color: black;
+    padding-top: 40px;
+    font-family: Rockwell;
+    font-weight: regular;
+    font-size: 51px;
+    margin-bottom: 25px;
+}
+
+.facilityblocktext {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    color: black;
+}
+
+.facility_paragraph_head {
+    text-align: center;
+    font-family: nexa bold;
+    font-size: 800px;
+    font-size: 21px;
+}
+
+.facility_box_paragraph {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow-y: scroll;
+}
+
+.facilitytext {
+    border: solid;
+    border-color: black;
+    padding: 7px;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 1500px) {
+    .container-fluid-facility {
+        height: auto;
+        background-size: auto;
+    }
+
+    .facilitytop {
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        font-family: Rockwell;
+        font-weight: regular;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .facilityblocktext {
+        height: 195px;
+    }
+
+    .facility_paragraph_head {
+        text-align: center;
+        font-family: nexa bold;
+        font-size: 15px;
+    }
+
+    .facility_box_paragraph {
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        overflow-y: scroll;
+    }
+
+    .facilitytext {
+        border: solid;
+        border-color: black;
+        padding: 4px;
+        margin: 5px;
+        background: rgba(255, 255, 255, 0.6);
+    }
+
+    .a {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container-fluid-facility {
+        height: auto;
+        background-size: auto;
+    }
+
+    .facilitytop {
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        font-family: Rockwell;
+        font-weight: regular;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .facilityblocktext {
+        height: auto;
+    }
+
+    .facility_paragraph_head {
+        text-align: center;
+        font-family: nexa bold;
+        font-size: 15px;
+    }
+
+    .facility_box_paragraph {
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow-y: scroll;
+    }
+
+    .facilitytext {
+        border: solid;
+        border-color: black;
+        padding: 4px;
+        margin: 5px;
+        background: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.gallerytop {
+    margin-bottom: 55px;
+    text-align: center;
+    font-family: Rockwell;
+    font-size: 51px;
+}
+
+.touchtop {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Rockwell;
+    font-size: 51px;
+}
+
+@media only screen and (max-width: 414px) {
+    .gallerytop {
+        font-size: 25px;
+    }
+
+    .facilitytop {
+        font-size: 25px;
+    }
+
+    .abouthead {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .touchtop {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .about_btn {
+        text-align: center;
+    }
+}
+
+.row-gallery1 {
+    margin-bottom: 10px;
+}
+
+.row-gallery1 .col-sm-12,
+.col-md-4 {
+    margin-bottom: 10px;
+}
+
+.row-gallery2 .col-sm-12,
+.col-md-4 {
+    margin-bottom: 10px;
+}
+
+.row-gallery2 .col-sm-12,
+.col-md-4 img {
+    width: 100%;
+}
+
+.container-gallery {
+    margin-bottom: 95px;
+}
+
+.horizontalbar hr {
+    border-width: 0.2rem;
+    width: 100%;
+    border-color: black;
+}
+
+.container-fluid-touch {
+    margin-top: 95px;
+    height: 500px;
+    width: 100%;
+    background-image: url(/image/get_in_touch_new.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name_email input {
+    border: 2px solid black;
+    background: none;
+    margin-left: 400px;
+    width: 350px;
+    height: 45px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.message_form input {
+    background: none;
+    border: 2px solid black;
+    width: 350px;
+    height: 105px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.submit_button {
+    text-align: center;
+}
+
+.submit_btn{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1550px) {
+    .name_email input {
+        border: 2px solid black;
+        background: none;
+        margin-left: 350px;
+        width: 300px;
+        height: 45px;
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .name_email input {
+        border: 2px solid black;
+        background: none;
+        margin-left: 350px;
+        width: 300px;
+        height: 45px;
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1305px) {
+    .name_email input {
+        border: 2px solid black;
+        background: none;
+        margin-left: 210px;
+        width: 300px;
+        height: 45px;
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .name_email input {
+        border: 2px solid black;
+        background: none;
+        margin-left: 120px;
+        width: 350px;
+        height: 45px;
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .name_email input {
+        border: 2px solid black;
+        background: none;
+        margin-left: 130px;
+        width: 300px;
+        height: 45px;
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .name_email input {
+        border: 2px solid black;
+        background: none;
+        margin-left: 100px;
+        width: 300px;
+        height: 45px;
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .name_email input {
+        border: 2px solid black;
+        background: none;
+        margin-left: 60px;
+        width: 300px;
+        height: 45px;
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .name_email input {
+        margin-left: 0px;
+        text-align: center;
+        width: 330px;
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .name_email input {
+        margin-left: 30px;
+        text-align: center;
+        width: 330px;
+
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+
+    .message_form input {
+        margin-left: 20px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .name_email input {
+        margin-left: 10px;
+        text-align: center;
+        width: 330px;
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+
+    .message_form input {
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .name_email input {
+        margin-left: 0px;
+        text-align: center;
+        width: 330px;
+
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+
+    .message_form input {
+        margin-left: 0px;
+        text-align: center;
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .name_email input {
+        margin-left: 0px;
+        text-align: center;
+        width: 300px;
+
+    }
+
+    .submit_button {
+        text-align: center;
+    }
+
+    .message_form input {
+        margin-left: 0px;
+        text-align: center;
+        width: 300px;
+    }
+}
+
+.icon ul li {
+    padding-right: 15px;
+}
+
+.footer2 {
+    padding-top: 8px;
+    height: auto;
+    background-color: black;
+}
+
+.contacttop {
+    color: white;
+    padding-top: 70px;
+    text-align: left;
+    padding-left: 52px;
+}
+
+@media only screen and (max-width: 414px) {
+    .contacttop h3 {
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .links {
+        padding-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .links {
+        padding-left: 0px;
+    }
+}
+
+/* for underline under footer contents */
+.underline1::after {
+    content: '';
+    height: 2px;
+    width: 85px;
+    background: white;
+    position: absolute;
+    left: 70px;
+    bottom: 190px;
+}
+
+.underline2::after {
+    content: '';
+    height: 2px;
+    width: 70px;
+    background: white;
+    position: absolute;
+    left: 70px;
+    bottom: 190px;
+}
+
+.underline3::after {
+    content: '';
+    height: 2px;
+    width: 70px;
+    background: white;
+    position: absolute;
+    left: 70px;
+    bottom: 190px;
+}
+
+.contacttop i {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+@media only screen and (max-width: 1024px) {
+    .underline1::after {
+        bottom: 230px;
+    }
+
+    .underline2::after {
+        bottom: 230px;
+    }
+
+    .underline3::after {
+        bottom: 230px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .underline1::after {
+        bottom: 260px;
+    }
+
+    .underline2::after {
+        bottom: 230px;
+        margin-left: 35px;
+    }
+
+    .underline3::after {
+        bottom: 230px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .underline1::after {
+        bottom: 210px;
+    }
+
+    .underline2::after {
+        bottom: 190px;
+        left: 35px;
+    }
+
+    .underline3::after {
+        bottom: 210px;
+    }
+}
+
+@media only screen and (width: 414px) {
+    .underline1::after {
+        bottom: 190px;
+    }
+
+    .underline2::after {
+        bottom: 190px;
+        left: 35px;
+    }
+
+    .underline3::after {
+        bottom: 190px;
+    }
+}
+
+@media only screen and (width: 411px) {
+    .underline1::after {
+        bottom: 190px;
+    }
+
+    .underline2::after {
+        bottom: 190px;
+        left: 35px;
+    }
+
+    .underline3::after {
+        bottom: 190px;
+    }
+}
+
+@media only screen and (width: 320px) {
+    .underline1::after {
+        bottom: 230px;
+    }
+
+    .underline2::after {
+        bottom: 190px;
+        left: 35px;
+    }
+
+    .underline3::after {
+        bottom: 210px;
+    }
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.footer_tag{
+    color: white;
+}
+
+.footer_tag:hover{
+    text-decoration: none;
+}
+
+/* js gallery slider image test */
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 263px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-wrapper {
+    padding-bottom: 50px;
+}
+
+/* cursor property for subscribe button */
+.subscribe_btn {
+    cursor: pointer;
+}
